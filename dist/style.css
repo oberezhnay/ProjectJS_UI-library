@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+button {
+  width: 50px;
+  height: 40px;
+  background-color: cadetblue;
+  text-align: center;
+  color: aliceblue;
+}
+
+.active {
+  font-size: 20px;
+  color: brown;
+}
