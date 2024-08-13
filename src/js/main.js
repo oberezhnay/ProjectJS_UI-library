@@ -10,4 +10,4 @@ $('div').click(function() {
 
 // console.log($('.some').closest('.findme'));
 // console.log($('div').eq(2).find('.some'));
-console.log($('.findme').siblings());
+$('button').fadeIn(2000);
