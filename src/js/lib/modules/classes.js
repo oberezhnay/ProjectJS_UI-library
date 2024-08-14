@@ -10,9 +10,9 @@ $.prototype.addClass = function(...classNames) {
 
 $.prototype.removeClass = function(...classNames) {
   for (let i = 0; i < this.length; i++) {
-    if (!this[i].className) {
-      continue;
-    }
+    // if (!this[i].className) {
+    //   continue;
+    // }
     this[i].classList.remove(...classNames);
   }
 
